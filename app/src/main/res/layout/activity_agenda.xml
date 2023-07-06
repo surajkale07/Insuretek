@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Agenda">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Day 1"
+                android:textColor="@color/blue"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Wednesday, 22nd February 2023"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00 AM - 09:00 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration And Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 09:00 AM - 09:40 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inauguration Ceremony And Key note Address"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by H.E Fareed Lutfi"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Secretary General - Emirates Insurance Association
+Secretary General - Gulf Insurance Federation"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 09:40 AM - 10:00 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1st Presentation Topic : Insurtechs versus incumbents - why it never works, and how to make it work"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Frederik Bisbjerg"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senior Advisor and Expert, Digital Transformation Head of MENA, The Digital Insurer"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 10:00 AM - 10:20 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd Presentation Topic : AI-Driven Cyber Insurance - An Opportunity, or a Buzz-Word?"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Nir Perry -Founder and CEO Cyberwrite"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chief Revenue Officer InsureMO"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 10:20 AM - 10:40 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3rd Presentation Topic: Motor Insurance Digital Ecosystem"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Ahmed Fares"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chief Innovation Officer Motori"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 10:40 AM - 11:00 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coffee Break and Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 11:00 AM - 11:20 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4th Presentation"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Rajat Sharma"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chief Revenue Officer InsureMO"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:20 AM - 11:40 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th Presentation Topic: Next Generation Product and Underwriting"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Sai Lakshmidhar"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="President Insurance Insillion"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 11:40 PM - 12:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6th Presentation Topic:Enabling Digital Operating Model through Enterprise Simplification"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Vineet Singh"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Global Head of Digital and Customer Experience TCS BFSI Products and Platforms"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 12:00 PM - 01:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panel Discussion Topic : The changing insurance landscape: How Insurance companies are dealing with Millennials and Gen Z"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Renjit Philip -Co-founder FS Brew(MODERATOR),Vidya Veerapandian -Host FS Brew(CO - MODERATOR), Ahmed Eissa -CEO Motori, Mina Sahib -Insurance Business Director MENA XA Group,Neeraj Gupta -CEO Policybazaar.ae, Simon S Price -CEO DIFC Insurance Association,David Salib -Country Manager Trufla Technology "
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 01:00 PM - 02:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch Break and Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02:00 PM - 03:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panel Discussion Topic : Digital Transformation in the Healthcare insurance sector"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Nancy Mourad -Co-founder Kluly, Nabil Z. Al Shanawani -Assistant General Manager Al Buhaira National Insurance Co, Saif Aljaibeji -Chief Government Business Development OfficerNational Health Insurance Company - Daman, Dr. K.P.Hussain -Chairman FMC Network UAE, Rajatsubhra Pal-Vice President and Head - TCS BaNCS Insurance TCS BFSI Products and Platforms "
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 03:00 PM - 04:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panel Discussion (Embeded Insurance 2.0) Topic : The Rise of Embedded Insurance 2.0"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Jonathan Rawling -CEO yallacompare, Lars Gehrmann -Group Chief Digital Officer Qatar Insurance Group, Michele Grosso -Chief Executive Officer Democrance, Mohammed Seghir -CEO Hayah, Tomek Bugajski -Vice President eBaoTech EMEA, Rahul Matiwadekar -Chief Product Officer Insurancemarket.ae"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 04:00 PM - 05:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Certificate Distribution and Closing Ceremony"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 05:00 PM- 05:30 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coffee Break and Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Day 2"
+                android:textColor="@color/blue"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Thursday, 23rd February 2023"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 08:00 AM - 10:40 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inauguration Ceremony and Key note Address Start up - Programme"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 10:40 AM - 11:00 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coffee Break and Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 11:00 AM - 11:20 AM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9th Presentation"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Amreesh Kher -Chief Partnership officer Turtlemint"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 11:20 AM - 12:05 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panel Discussion Topic : CEO - Panel Discussion"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  12:05 PM - 12:50 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panel Discussion Topic : MENA: Is there a need for a NAT CAT insurance regional pool?"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="@color/grey"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 12:50 PM - 01:40 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panel Discussion Topic : Can Metaverse be a 'Game Changer' for the Insurance Sector"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="by Frederik Bisbjerg -Senior advisor and expert, Digital Transformation / Head of MENA, the Digital Insurer (MODERATOR ,Anish kurup -Aimri, Joe Hawayek -Senior Advisor DIGINOVA, Sivakumar Seshadri -Head of Digital Tawuniya, Lara Varjabedian -Founder and Director Kojo Innovation Ltd"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 01:40 PM - 02:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Certificate Distribution and Closing Ceremony"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 02:00 PM - 03:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch Break and Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 06:00 PM - 07:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Awardees Welcome and Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 07:00 PM - 07:30 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chief Guest Speech"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:30 PM - 09:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Award Ceremony"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="------------------------------------"
+                android:textColor="#808080"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 09:00 PM - 11:00 PM"
+                android:textColor="#808080"
+                android:textSize="20dp"
+                android:drawableStart="@drawable/clock"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner and Cocktail Networking"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="35dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

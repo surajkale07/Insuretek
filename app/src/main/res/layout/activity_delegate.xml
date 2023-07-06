@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".delegate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="8px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Keynote Speaker"
+                android:textColor="@color/blue"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/fareed">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/fareedlutfi" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="H.E. Fareed Lutfi "
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text=" THE SECRETARY-GENERAL EMIRATES INSURANCE ASSOCIATION THE SECRETARY-GENERAL GULF INSURANCE FEDERATION"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Our Speakers"
+                android:textColor="@color/blue"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/saif">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/saif" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Saif Aljaibeji "
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chief Government Business Development Officer National Health Insurance Company - Daman"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/tomek">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/tomek" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Tomek Bugajski "
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Vice President eBaoTech EMEA"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/Mina">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/mina" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Mina Sahib"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Insurance Business Director MENAXA Group"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/ahmed">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ahmedeissa" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Ahmed Eissa "
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="CEO Motori"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/aftab">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/afthab" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Aftab Hasan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chairman, Risk Exchange (DIFC) Limited EO, Arya Insurance Brokerage Co. (Bayzat)"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/anand">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/anandsingh" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Anand Singh"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Senior Counsel Al Tamimi and Company"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/neeraj">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/neerajgupta" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Neeraj Gupta"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="CEO Policybazaar.ae"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/nancy">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/nancy" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Nancy Mourad"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Co-Founder Kluly"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/vineet">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/vineetsingh" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Vineet Singh"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Global Head of Digital and Customer Experience TCS BFSI Products and Platforms"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/pal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/rajatsubhra" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Rajatsubhra Pal"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Vice President and Head - TCS BaNCS Insurance TCS BFSI Products and Platforms"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/joe">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/joe" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Joe Hawayek"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Senior Advisor DIGINOVA"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/nabil">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/nabil" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Nabil Z. Al Shanawani"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Assistant General Manager Al Buhaira National Insurance Co"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/frederik">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/federick" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Frederik Bisbjerg"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Senior advisor and expert, Digital Transformation / Head of MENA, the Digital Insurer"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/michele">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/michele" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Michele Grosso"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chief Executive Officer Democrance"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/mohamed">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/mohamedseghir" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Mohamed Seghir"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="CEO Hayah"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/lavanya">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/lavanya" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Lavanya Mundayur"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="COO, The New India Assurance Company Limited"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/fares">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/fares" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Fares"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chief Innovation Officer Motori"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/lars">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/lars" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Lars Gehrmann"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Group Chief Digital Officer Qatar Insurance Group"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/sai">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/sai" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sai"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="President - Insurance Insillion"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/amreesh">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/amreesh" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Amreesh Kher"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chief Partnership officer Turtlemint"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/david">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/david" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="David Salib"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Country Manager Trufla Technology"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/kphussain">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/hussain" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Dr. K.P.Hussain"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chairman FMC Network UAE"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/jonathan">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/jonathanrawling" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Jonathan Rawling"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="CEO yallacompare"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/renjit">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/renjith" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Renjit Philip"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Co-founder FS Brew"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/lara">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/lara" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Lara Varjabedian"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Founder and Director Kojo Innovation Ltd"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/simon">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/simon" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Simon S Price"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="CEO DIFC Insurance Association"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/rahul">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/rahul" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Rahul Matiwadekar"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Chief Product Officer Insurancemarket.ae"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/vidya">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/vidya" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Vidya Veerapandian"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Host FS Brew"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/anish">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/anishkurup" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Anish Kurup"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Aimri"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/atinc">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/atnicy" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Atinc Yilmaz"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Regional CEO - Turkey, The Middle East and Africa, Howden Broking Group"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/vasilis">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/vasilisk" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Vasilis Katsipis"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="General Manager, Market Development A.M. Best"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/shiv">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/sivakumar" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sivakumar Seshadri"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Head Of Digital Tawuniya"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/blue"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="26dp"
+                android:id="@+id/nirperry">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/nirperry" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Nir Perry"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Founder and CEO Cyberwrite"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
