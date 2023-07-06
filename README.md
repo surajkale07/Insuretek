@@ -1,6 +1,6 @@
-# Insuetek
+# Insuretek
 
-Insuetek is an Android application that promotes events in Dubai and helps users connect with different participants while keeping them up-to-date about the events. The application is built using Java.
+Insuretek is an Android application that promotes events in Dubai and helps users connect with different participants while keeping them up-to-date about the events. The application is built using Java.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Insuetek is an Android application that promotes events in Dubai and helps users
 
 ## Project Description
 
-Insuetek is designed to provide a platform for event promotion and networking in Dubai. It aims to bridge the gap between event organizers and participants, making it easier for people to discover, join, and engage with various events happening in the city.
+Insuretek is designed to provide a platform for event promotion and networking in Dubai. It aims to bridge the gap between event organizers and participants, making it easier for people to discover, join, and engage with various events happening in the city.
 
 ## Features
 
@@ -26,7 +26,7 @@ Insuetek is designed to provide a platform for event promotion and networking in
 
 ## Installation
 
-To run the Insuetek application on your Android device, follow these steps:
+To run the Insuretek application on your Android device, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the project in your preferred Java IDE (such as Android Studio).
@@ -38,13 +38,13 @@ For more detailed instructions on setting up an Android development environment,
 
 ## Usage
 
-Upon launching the Insuetek application, you will be greeted with a list of upcoming events in Dubai. Tap on an event to view its details, including the date, time, location, and other relevant information. You can connect with other participants, set event reminders, and receive notifications to stay informed about any updates or changes.
+Upon launching the Insuretek application, you will be greeted with a list of upcoming events in Dubai. Tap on an event to view its details, including the date, time, location, and other relevant information. You can connect with other participants, set event reminders, and receive notifications to stay informed about any updates or changes.
 
 Explore the different features of the application to make the most out of your event experience in Dubai!
 
 ## Contributing
 
-We welcome contributions to the Insuetek project! If you would like to contribute, please follow these guidelines:
+We welcome contributions to the Insuretek project! If you would like to contribute, please follow these guidelines:
 
 1. Fork the repository and create your branch: `git checkout -b my-feature-branch`.
 2. Make your changes and test thoroughly.
